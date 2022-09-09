@@ -59,10 +59,7 @@ def Main_game(score) :
     bird_x_coordinate = screen_width/10
     bird_y_coordinate = (screen_height/2) - (game_sprite['Bird'].get_height())/2
 
-    birdFallingVelocity = int(10)
-    birdFlapped = int(-100)
     pipe_velocity_x = int(-4)
-    flag = True
 
     newPipe1 = getRandomPipe()
     newPipe2 = getRandomPipe()
